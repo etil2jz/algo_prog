@@ -1,0 +1,2 @@
+﻿  TD1.c
+C:\Users\Arthur\Documents\Programmation ESIEE-Amiens\TP1\TP1\TD1.c(101,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

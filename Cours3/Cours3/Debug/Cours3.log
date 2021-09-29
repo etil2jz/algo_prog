@@ -1,0 +1,3 @@
+﻿  cours3.c
+C:\Users\Arthur\Documents\Programmation ESIEE-Amiens\Cours3\Cours3\cours3.c(13,11): warning C4477: 'printf_s' : la chaîne de format '%i' nécessite un argument de type 'int', mais l'argument variadique 1 est de type 'int *'
+  Cours3.vcxproj -> C:\Users\Arthur\Documents\Programmation ESIEE-Amiens\Cours3\Debug\Cours3.exe
