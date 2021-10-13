@@ -1,0 +1,6 @@
+﻿  TP2.c
+C:\Users\Arthur\Documents\Programmation ESIEE-Amiens\algo_prog\TP2\TP2\TP2.c(62,10): warning C4013: 'printf_s' non défini(e) ; extern retournant int pris par défaut
+C:\Users\Arthur\Documents\Programmation ESIEE-Amiens\algo_prog\TP2\TP2\TP2.c(65,10): warning C4013: 'scanf_s' non défini(e) ; extern retournant int pris par défaut
+TP2.obj : error LNK2019: symbole externe non résolu _printf_s référencé dans la fonction _main
+TP2.obj : error LNK2019: symbole externe non résolu _scanf_s référencé dans la fonction _main
+C:\Users\Arthur\Documents\Programmation ESIEE-Amiens\algo_prog\TP2\Debug\TP2.exe : fatal error LNK1120: 2 externes non résolus

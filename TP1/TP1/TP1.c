@@ -95,16 +95,26 @@
 
 #include <stdio.h>
 int main() {
-	int i, j, n;
-	do {
-		printf_s("Entrez la hauteur de la branche :\n");
-		scanf_s("%i", &n);
-	} while (n <= 0);
-	printf_s("\nVoici votre joli sapin !\n\n");
-	for (i = 0; i < n; i++) {
-		for (j = 0; j < n; j++) {
+	int a, b, c, d, e, f = 1;
+	printf_s("Entrez la hauteur de la branche :\n");
+	scanf_s("%i", &a);
+	c = a;
+	for (b = 0; b < a; b++) {
+		c -= 1;
+		for (d = 0; d < c; d++) {
+			printf_s(" ");
+		}
+		for (e = 0; e < f; e++) {
 			printf_s("*");
 		}
+		f += 2;
 		printf_s("\n");
+	}
+	c = a - 2;
+	for (d = 0; d < 2; d++) {
+		for (b = 0; b < c; b++) {
+			printf_s(" ");
+		}
+		printf_s("***\n");
 	}
 }

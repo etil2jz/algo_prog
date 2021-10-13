@@ -1,0 +1,6 @@
+﻿  Cours4.c
+  Cours4.obj : .netmodule ou module MSIL compilé avec /GL trouvé ; redémarrage de l'édition de liens avec /LTCG ; ajoutez /LTCG à la ligne de commande de l'édition de liens pour améliorer les performances de l'Éditeur de liens
+LINK : warning LNK4075: ' /INCREMENTAL' ignoré à cause de la spécification '/LTCG'
+  Génération de code en cours
+  Fin de la génération du code
+  Cours4.vcxproj -> C:\Users\Arthur\Documents\Programmation ESIEE-Amiens\algo_prog\Cours4\x64\Debug\Cours4.exe
