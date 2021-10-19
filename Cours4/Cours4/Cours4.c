@@ -169,7 +169,7 @@ void caseMax(float tab[]) { // broken -> need to fix
 			nCase = i;
 		}
 	}
-	printf_s("\nLa valeur maximum du tableau se situe case %i\n", nCase);
+	printf_s("\nLa valeur maximum du tableau se situe case %i\n", nCase + 1);
 }
 
 float calcMoyenne(float tab[]) {
