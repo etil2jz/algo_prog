@@ -1,0 +1,4 @@
+﻿  TD3.c
+C:\Users\Arthur\Documents\Programmation ESIEE-Amiens\algo_prog\TD3\TD3\TD3.c(16,7): warning C4013: 'gets' non défini(e) ; extern retournant int pris par défaut
+C:\Users\Arthur\Documents\Programmation ESIEE-Amiens\algo_prog\TD3\TD3\TD3.c(28): warning C4715: 'saisie' : les chemins de contrôle ne retournent pas tous une valeur
+  TD3.vcxproj -> C:\Users\Arthur\Documents\Programmation ESIEE-Amiens\algo_prog\TD3\x64\Debug\TD3.exe
