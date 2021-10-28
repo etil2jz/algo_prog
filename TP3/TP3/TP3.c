@@ -59,19 +59,47 @@
 
 // Exercice 3
 
+//#include <stdio.h>
+//
+//int main() {
+//	int i, tab[20], deb, fin, indice = 0, min;
+//	printf_s("Entrez un tableau de 20 entiers :\n");
+//	for (i = 0; i < 20; i++) {
+//		scanf_s("%i", &tab[i]);
+//	}
+//	do {
+//		printf_s("\nEntrez un entier de debut compris entre 0 et 19 :\n");
+//		scanf_s("%i", &deb);
+//		printf_s("\nEntrez un entier de fin compris entre 0 et 19 :\n");
+//		scanf_s("%i", &fin);
+//	} while (deb < 0 || deb > 19 || fin < deb || fin > 19);
+//	min = tab[0];
+//	for (i = deb; i <= fin; i++) {
+//		if (min > tab[i]) {
+//			min = tab[i];
+//			indice = i;
+//		}
+//	}
+//	printf_s("\nL'indice de la valeur minimale de l'intervalle de ce tableau est %i\n", indice);
+//}
+
+// Exercice 4
+
 #include <stdio.h>
 
+void saisie(char texte[150]) {
+	printf_s("\nEntrez une chaine de caracteres (max 150) :\n");
+	fflush(stdin);
+	gets(texte);
+}
+
+void affichage(char texte[]) {
+	printf_s("\nVotre phrase est %s\n", texte);
+}
+
 int main() {
-	int i, tab[20], deb, fin;
-	printf_s("Entrez un tableau de 20 entiers :\n");
-	for (i = 0; i < 20; i++) {
-		scanf_s("%i", &tab[i]);
-	}
-	do {
-		printf_s("\nEntrez un entier de debut compris entre 0 et 19 :\n");
-		scanf_s("%i", &deb);
-		printf_s("\nEntrez un entier de fin compris entre 0 et 19 :\n");
-		scanf_s("%i", &fin);
-	} while (deb < 0 || deb > 19 || fin < deb || fin > 19);
+	char texte[150];
+	saisie(texte);
+	affichage(texte);
 
 }

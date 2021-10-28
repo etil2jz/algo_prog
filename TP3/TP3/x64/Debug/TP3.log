@@ -1,2 +1,4 @@
 ﻿  TP3.c
+C:\Users\Arthur\Documents\Programmation ESIEE-Amiens\algo_prog\TP3\TP3\TP3.c(93,6): warning C4013: 'gets' non défini(e) ; extern retournant int pris par défaut
+C:\Users\Arthur\Documents\Programmation ESIEE-Amiens\algo_prog\TP3\TP3\TP3.c(94,19): warning C4047: '=' : les niveaux d'indirection de 'char' et de 'char [2]' sont différents
   TP3.vcxproj -> C:\Users\Arthur\Documents\Programmation ESIEE-Amiens\algo_prog\TP3\x64\Debug\TP3.exe
